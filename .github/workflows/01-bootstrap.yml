@@ -32,6 +32,10 @@ jobs:
         working-directory: cdk
         run: npm install
 
+      - name: Change .mvn permissions
+        working-directory: cdk
+        run: chmod +x mvnw
+
       - name: Deploy CDK bootstrap stack
         working-directory: cdk
         run: npm run bootstrap
