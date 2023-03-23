@@ -34,6 +34,10 @@ jobs:
       - name: NPM install
         working-directory: cdk
         run: npm install
+        
+      - name: Change .mvn permissions
+        working-directory: cdk
+        run: chmod +x mvnw
 
       - name: Deploy network stack
         working-directory: cdk
