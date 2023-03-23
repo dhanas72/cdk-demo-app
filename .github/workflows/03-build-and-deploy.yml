@@ -30,9 +30,9 @@ jobs:
           java-version: 17
           cache: 'gradle'
 
-      - name: Change .mvn permissions
+      - name: Change gradle permissions
         working-directory: cdk
-        run: chmod +x ./gradlew
+        run: chmod +x gradlew
 
       - name: Build application
         run: ./gradlew build --stacktrace
