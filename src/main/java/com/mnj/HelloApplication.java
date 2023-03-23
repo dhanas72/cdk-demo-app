@@ -1,4 +1,4 @@
-package dev.stratospheric.hello;
+package com.mnj;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

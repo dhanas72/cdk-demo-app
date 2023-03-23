@@ -1,4 +1,4 @@
-package com.myorg;
+package com.mnj;
 
 import dev.stratospheric.cdk.ApplicationEnvironment;
 import dev.stratospheric.cdk.Network;

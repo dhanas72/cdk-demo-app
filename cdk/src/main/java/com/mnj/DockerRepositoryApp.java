@@ -1,4 +1,4 @@
-package com.myorg;
+package com.mnj;
 
 import dev.stratospheric.cdk.DockerRepository;
 import software.amazon.awscdk.App;

@@ -1,4 +1,4 @@
-package dev.stratospheric.hello;
+package com.mnj;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
