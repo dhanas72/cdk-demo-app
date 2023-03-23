@@ -33,6 +33,7 @@ jobs:
 #      - name: Change gradle permissions
 #        working-directory: cdk
 #        run: chmod +x gradlew
+ #     -
 
       - name: Build application
         run: ./gradlew build --stacktrace
